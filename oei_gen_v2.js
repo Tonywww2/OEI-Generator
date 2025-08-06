@@ -169,7 +169,7 @@ const getModPriorityForTag = (tagId, modId) => {
 
 // 将标签名转换为文件名
 const tagToFileName = (tagId) => {
-    return tagId.replace(/:/g, "_").replace(/\//g, "_")
+    return tagId.replace(/:/g, "_").replace(/\//g, "_").slice(0, -1)
 }
 
 // 单个标签的规则匹配
