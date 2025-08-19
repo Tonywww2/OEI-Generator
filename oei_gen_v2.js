@@ -93,7 +93,10 @@ const almostUnifiedConfig = {
         "tin",
         "tungsten",
         "uranium",
-        "zinc"
+        "zinc",
+        "titanium",
+        "chromium",
+        "stainless_steel"
     ]
 }
 
